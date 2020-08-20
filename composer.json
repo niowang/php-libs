@@ -1,0 +1,15 @@
+{
+  "name": "jmd-backend/php-libs",
+  "description": "php类库",
+  "type": "library",
+  "license": "apache v2",
+  "require": {
+    "php": ">=7.1.0",
+    "lcobucci/jwt": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "JMD\\": "src"
+    }
+  }
+}
